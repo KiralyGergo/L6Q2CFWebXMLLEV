@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend>
+    <ora id="01" tipus="előadás">
+        <targy>Webkönyvtárak_Webes adatkezelő környezetek</targy>
+        <idopont>
+            <nap>pentek</nap>
+            <tol>13</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>Inf124</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező Informatikus</szak>
+    </ora>
+
+    <ora id="02" tipus="előadás">
+        <targy>Valószínűségszámítás és statisztika</targy>
+        <idopont>
+            <nap>pentek</nap>
+            <tol>13</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszin>-</helyszin>
+        <oktato>Kucsinka Katalin</oktato>
+        <szak>Programtervező Informatikus</szak>
+    </ora>
+
+    <ora id="03" tipus="előadás">
+        <targy>Szoftverjog és biztonságtechnika</targy>
+        <idopont>
+            <nap>szombat</nap>
+            <tol>9</tol>
+            <ig>13</ig>
+        </idopont>
+        <helyszin>-</helyszin>
+        <oktato>Dr Mileff Péter</oktato>
+        <szak>Programtervező Informatikus</szak>
+    </ora>
+
+</orarend>
