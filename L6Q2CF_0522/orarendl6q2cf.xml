@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orarend>
+    <ora>
+        <targy>Web-es adatkezelő környezetek</targy>
+        <idopont>Hétfő 10:00</idopont>
+        <helyszin>A1/101</helyszin>
+        <oktato>Dr. Kovács János</oktato>
+    </ora>
+    <ora>
+        <targy>Adatbázis rendszerek</targy>
+        <idopont>Kedd 12:00</idopont>
+        <helyszin>Info/202</helyszin>
+        <oktato>Kiss Péter</oktato>
+    </ora>
+    <ora>
+        <targy>Webkönyvtárak</targy>
+        <idopont>Szerda 14:00</idopont>
+        <helyszin>Online</helyszin>
+        <oktato>Nagy Anna</oktato>
+    </ora>
+</orarend>

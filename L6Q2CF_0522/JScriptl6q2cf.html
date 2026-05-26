@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>JScriptNeptunkod</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; }
+        h1 { color: #333; }
+        .ora-blokk { background: white; padding: 15px; margin-bottom: 15px; border-left: 5px solid #0076a3; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .mezo { font-weight: bold; color: #555; }
+    </style>
+</head>
+<body>
+    <h1>Órarend Feldolgozás (JavaScript)</h1>
+    <div id="orarend-kontener"></div>
+
+    <script>
+        const orarendAdat = {
+            "orarend": {
+                "ora": [
+                    { "targy": "Web-es adatkezelő környezetek", "idopont": "Hétfő 10:00", "helyszin": "A1/101", "oktato": "Dr. Kovács János" },
+                    { "targy": "Adatbázis rendszerek", "idopont": "Kedd 12:00", "helyszin": "Info/202", "oktato": "Kiss Péter" },
+                    { "targy": "Webkönyvtárak", "idopont": "Szerda 14:00", "helyszin": "Online", "oktato": "Nagy Anna" }
+                ]
+            }
+        };
+
+        const kontener = document.getElementById('orarend-kontener');
+        const orak = orarendAdat.orarend.ora;
+
+        orak.forEach(ora => {
+            const div = document.createElement('div');
+            div.className = 'ora-blokk';
+            
+            let tartalom = '';
+            for (let mezo in ora) {
+                tartalom += `<div><span class="mezo">${mezo}:</span> ${ora[mezo]}</div>`;
+            }
+            div.innerHTML = tartalom;
+            kontener.appendChild(div);
+        });
+    </script>
+</body>
+</html>

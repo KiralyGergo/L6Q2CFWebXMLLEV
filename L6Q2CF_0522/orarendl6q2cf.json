@@ -1,0 +1,24 @@
+{
+  "orarend": {
+    "ora": [
+      {
+        "targy": "Web-es adatkezelo kornyezetek",
+        "idopont": "Hetfo 10:00",
+        "helyszin": "A1/101",
+        "oktato": "Dr. Kovacs Janos"
+      },
+      {
+        "targy": "Adatbazis rendszerek",
+        "idopont": "Kedd 12:00",
+        "helyszin": "Info/202",
+        "oktato": "Kiss Peter"
+      },
+      {
+        "targy": "Webkonyvtarak",
+        "idopont": "Szerda 14:00",
+        "helyszin": "Online",
+        "oktato": "Nagy Anna"
+      }
+    ]
+  }
+}
